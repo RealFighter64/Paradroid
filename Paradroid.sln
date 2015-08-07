@@ -1,19 +1,23 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-
+Project("{E1F5C1D7-106E-B5AD-02F4-235E27107454}") = "Paradroid", "Assembly-CSharp.csproj", "{84B7ADFD-DBC5-2EBF-7F01-E75E31E98340}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-
+		{84B7ADFD-DBC5-2EBF-7F01-E75E31E98340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84B7ADFD-DBC5-2EBF-7F01-E75E31E98340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84B7ADFD-DBC5-2EBF-7F01-E75E31E98340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84B7ADFD-DBC5-2EBF-7F01-E75E31E98340}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
+			GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -32,4 +36,5 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
+
 EndGlobal

@@ -2,6 +2,7 @@ PARADROID
 - Robot Models to edit and animate
 - Weapons (guns of some sort)
 - Spaceship scene
-
 - Battle aspect
 - Basic movement controls
+- Enemies (w/ A.I.)
+- Winning the game
