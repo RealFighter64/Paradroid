@@ -10,14 +10,20 @@ public class Droid : MonoBehaviour
 	public int armour;
 	public int attack;
 	public int time;
+	public bool player;
+	public DroidMovement droidMovement;
 
-	public Droid (int level, int moveSpeed, int armour, int attack, int time)
+	void Start ()
 	{
-		this.level = level;
-		this.dead = false;
-		this.moveSpeed = moveSpeed;
-		this.armour = armour;
-		this.attack = attack;
-		this.time = time;
+		if (player) {
+			droidMovement = new PlayerDroidMovement (this);
+		} else {
+			droidMovement = new AIDroidMovement (this);
+		}
+	}
+
+	void Update ()
+	{
+		droidMovement.Move();
 	}
 }
