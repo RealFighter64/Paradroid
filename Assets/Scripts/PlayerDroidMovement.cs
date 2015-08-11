@@ -9,5 +9,8 @@ public class PlayerDroidMovement : DroidMovement
 		if(Input.GetKeyDown(KeyCode.F)) {
 			Debug.Log ("Shot! Attack: " + droid.attack);
 		}
+
+		LookAtMouse();
+		droid.transform.position += droid.transform.forward * Time.deltaTime * droid.moveSpeed;
 	}
 }
