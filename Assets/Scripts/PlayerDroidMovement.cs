@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[System.Serializable]
 public class PlayerDroidMovement : DroidMovement
 {
 	public PlayerDroidMovement (Droid droid) : base(droid) { }
